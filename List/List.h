@@ -29,13 +29,14 @@ template<typename T>
 class List {
 private:
     Node* head;
+    size_t length;
 
 public:
     /**
      * @brief Basic constructor
      */
     List() {
-
+        length = 0;
     }
 
     /**
@@ -43,7 +44,7 @@ public:
      * @param const List& list : list to copy
      */
     List(const List& list) {
-
+        length = list.size();
     }
 
     /**
@@ -51,7 +52,7 @@ public:
      * @return size_t list size
      */
     size_t size() const {
-
+        return length;
     }
 
     /**
@@ -59,7 +60,11 @@ public:
      * @param const T& o : reference on element to add
      */
     void insert(const T& o) {
-
+        Node* newNode = new Node(o);
+        Node* tmp = head;
+        head->prev = newNode;
+        head = newNode;
+        head->next = tmp;
     }
 
     /**
