@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/List.dir/main.cpp.o CMakeFiles/List.dir/List.cpp.o CMakeFiles/List.dir/Iterator.cpp.o CMakeFiles/List.dir/ConstIterator.cpp.o CMakeFiles/List.dir/Node.cpp.o  -o List 
