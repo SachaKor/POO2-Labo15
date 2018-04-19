@@ -1,6 +1,11 @@
-//
-// Created by samuel on 4/19/18.
-//
+/**
+ *  @file    List.h
+ *  @author  Alexandra Korukova, Samuel Mayor
+ *  @date    19.04.2018
+ *  @version 1.0
+ *
+ *  @brief Doubly chained list implementation
+ */
 
 #ifndef LIST_LIST_H
 #define LIST_LIST_H
@@ -14,25 +19,115 @@ struct Node {
     Node *prev;
     Node *next;
     T data;
+
+    Node(T& data) {
+        this->data = data;
+    }
 };
 
 template<typename T>
 class List {
 private:
-    T head;
+    Node* head;
+
 public:
-    List();
-    List(const List& list);
-    size_t size() const;
-    void insert(const T& o);
-    void append(const T& o);
-    void removeAt(size_t index);
-    void remove(const T& o);
-    Iterator& begin() const;
-    Iterator& end() const;
-    int find(const T& o);
-    List& operator=(const List& l);
-    T& operator[](const size_t i);
+    /**
+     * @brief Basic constructor
+     */
+    List() {
+
+    }
+
+    /**
+     * @brief Copy constructor
+     * @param const List& list : list to copy
+     */
+    List(const List& list) {
+
+    }
+
+    /**
+     * @brief Returns list size
+     * @return size_t list size
+     */
+    size_t size() const {
+
+    }
+
+    /**
+     * @brief Inserts a new element to the begining of the list
+     * @param const T& o : reference on element to add
+     */
+    void insert(const T& o) {
+
+    }
+
+    /**
+     * @brief Inserts a new element to the end of the list
+     * @param const T& o : reference on element to add
+     */
+    void append(const T& o) {
+
+    }
+
+    /**
+     * @brief Removes element at given index
+     * @param const size_t index : index of element to remove
+     * @throws out_of_range exception
+     */
+    void removeAt(const size_t index) {
+
+    }
+
+    /**
+     * @brief Removes element
+     * @param const T& o : element to remove
+     */
+    void remove(const T& o) {
+
+    }
+
+    /**
+     * @brief Removes element at given index
+     * @param const size_t index : index of element to remove
+     * @return Iterator& iterator on the begining of the list
+     */
+    Iterator& begin() const {
+
+    }
+
+    /**
+     * @brief Removes element at given index
+     * @param const size_t index : index of element to remove
+     * @return Iterator& iterator on the end of the list
+     */
+    Iterator& end() const {
+
+    }
+
+    /**
+     * @brief Finds index of given element in the list
+     * @param const T& o : element to find
+     */
+    int find(const T& o) {
+
+    }
+
+    /**
+     * @brief Override = operator
+     * @param const List& l : list to copy
+     */
+    List& operator=(const List& l) {
+
+    }
+
+    /**
+     * @brief Overrides [] operator
+     * @param const size_t i : index in the list
+     */
+    T& operator[](const size_t i) {
+
+    }
 };
 
 
