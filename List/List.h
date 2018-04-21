@@ -16,8 +16,8 @@
 
 template <typename T>
 struct Node {
-    Node *prev;
-    Node *next;
+    Node<T> *prev;
+    Node<T> *next;
     T data;
 
     Node(T& data) {
@@ -28,16 +28,15 @@ struct Node {
 template<typename T>
 class List {
 private:
-    Node* head;
+    Node<T>* head;
+    Node<T>* tail;
     size_t length;
 
 public:
     /**
      * @brief Basic constructor
      */
-    List() {
-        length = 0;
-    }
+    List() : length(0), head(nullptr), tail(nullptr){ }
 
     /**
      * @brief Copy constructor
@@ -59,12 +58,13 @@ public:
      * @brief Inserts a new element to the begining of the list
      * @param const T& o : reference on element to add
      */
-    void insert(const T& o) {
-        Node* newNode = new Node(o);
-        Node* tmp = head;
+    void insert(T& o) {
+        Node<T>* newNode = new Node<T>(o);
+        Node<T>* tmp = head;
         head->prev = newNode;
         head = newNode;
         head->next = tmp;
+        length++;
     }
 
     /**
@@ -132,6 +132,26 @@ public:
      */
     T& operator[](const size_t i) {
 
+    }
+
+    /**
+     * @brief inserts the values of the list into os
+     * @param ostream object where the values are inserted
+     * @param l the list object with the content to insert
+     * @return os parameter
+     */
+    friend std::ostream& operator<<(std::ostream& os, const List<T>& l) {
+        Node<T> *cur = l.head;
+        os << "[";
+        while (cur) {
+            os << cur->data;
+            if(cur->next) {
+                os << ", ";
+            }
+            cur = cur->next;
+        }
+        os << "]";
+        return os;
     }
 };
 

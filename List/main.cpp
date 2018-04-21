@@ -1,6 +1,13 @@
 #include <iostream>
 
+#include "List.h"
+
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    List<int> list;
+    list.insert<int>(1);
+    list.insert<int>(2);
+    list.insert<int>(3);
+    cout << list << endl;
 }
