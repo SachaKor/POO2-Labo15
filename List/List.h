@@ -422,9 +422,18 @@ public:
      * @param const List& l : list to copy
      */
     List& operator=(const List& l) {
-        head = l.begin().getNode();
-        tail = l.end().getNode();
-        length = l.size();
+        clear();
+        Node<T>* cur;
+        Node<T>* prev = head;
+        for(Iterator it = l.begin(); it != l.end(); ++it) {
+            cur = new Node<T>((*it));
+            cur->prev = prev;
+            prev->next = cur;
+            prev = cur;
+        }
+        cur->next = tail;
+        tail->prev = cur;
+        return *this;
     }
 
     /**

@@ -49,6 +49,10 @@ int main() {
             "was created with the copy constructor with test list as a "
             "parameter: " << endl;
     cout << "listCopy: " << listCopy << endl;
+    cout << "Testing the assignment operator out of the declaration..." << endl;
+    List<int> listCopy2;
+    listCopy2 = test;
+    cout << "After creating a new empty list and assigning test list to it, listCopy2: " << listCopy2 << endl;
     listCopy[0] = 11;
     cout << "listCopy[0] = 11, listCopy: " << listCopy << endl;
 
