@@ -3,4 +3,4 @@ project(List)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(List main.cpp List.cpp List.h Iterator.cpp Iterator.h ConstIterator.cpp ConstIterator.h Node.cpp Node.h)
+add_executable(List main.cpp List.cpp List.h Person.cpp Person.h Hero.cpp Hero.h)

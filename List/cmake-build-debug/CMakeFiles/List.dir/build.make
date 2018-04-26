@@ -43,10 +43,10 @@ RM = /opt/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samuel/CLionProjects/List
+CMAKE_SOURCE_DIR = /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samuel/CLionProjects/List/cmake-build-debug
+CMAKE_BINARY_DIR = /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/List.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/List.dir/flags.make
 
 CMakeFiles/List.dir/main.cpp.o: CMakeFiles/List.dir/flags.make
 CMakeFiles/List.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/List.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/main.cpp.o -c /home/samuel/CLionProjects/List/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/List.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/main.cpp.o -c /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/main.cpp
 
 CMakeFiles/List.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/CLionProjects/List/main.cpp > CMakeFiles/List.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/main.cpp > CMakeFiles/List.dir/main.cpp.i
 
 CMakeFiles/List.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/CLionProjects/List/main.cpp -o CMakeFiles/List.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/main.cpp -o CMakeFiles/List.dir/main.cpp.s
 
 CMakeFiles/List.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/List.dir/main.cpp.o.provides.build: CMakeFiles/List.dir/main.cpp.o
 
 CMakeFiles/List.dir/List.cpp.o: CMakeFiles/List.dir/flags.make
 CMakeFiles/List.dir/List.cpp.o: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List.dir/List.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/List.cpp.o -c /home/samuel/CLionProjects/List/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List.dir/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/List.cpp.o -c /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/List.cpp
 
 CMakeFiles/List.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/List.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/CLionProjects/List/List.cpp > CMakeFiles/List.dir/List.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/List.cpp > CMakeFiles/List.dir/List.cpp.i
 
 CMakeFiles/List.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/List.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/CLionProjects/List/List.cpp -o CMakeFiles/List.dir/List.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/List.cpp -o CMakeFiles/List.dir/List.cpp.s
 
 CMakeFiles/List.dir/List.cpp.o.requires:
 
@@ -105,97 +105,71 @@ CMakeFiles/List.dir/List.cpp.o.provides: CMakeFiles/List.dir/List.cpp.o.requires
 CMakeFiles/List.dir/List.cpp.o.provides.build: CMakeFiles/List.dir/List.cpp.o
 
 
-CMakeFiles/List.dir/Iterator.cpp.o: CMakeFiles/List.dir/flags.make
-CMakeFiles/List.dir/Iterator.cpp.o: ../Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List.dir/Iterator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/Iterator.cpp.o -c /home/samuel/CLionProjects/List/Iterator.cpp
+CMakeFiles/List.dir/Person.cpp.o: CMakeFiles/List.dir/flags.make
+CMakeFiles/List.dir/Person.cpp.o: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List.dir/Person.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/Person.cpp.o -c /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Person.cpp
 
-CMakeFiles/List.dir/Iterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/Iterator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/CLionProjects/List/Iterator.cpp > CMakeFiles/List.dir/Iterator.cpp.i
+CMakeFiles/List.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/Person.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Person.cpp > CMakeFiles/List.dir/Person.cpp.i
 
-CMakeFiles/List.dir/Iterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/Iterator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/CLionProjects/List/Iterator.cpp -o CMakeFiles/List.dir/Iterator.cpp.s
+CMakeFiles/List.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/Person.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Person.cpp -o CMakeFiles/List.dir/Person.cpp.s
 
-CMakeFiles/List.dir/Iterator.cpp.o.requires:
+CMakeFiles/List.dir/Person.cpp.o.requires:
 
-.PHONY : CMakeFiles/List.dir/Iterator.cpp.o.requires
+.PHONY : CMakeFiles/List.dir/Person.cpp.o.requires
 
-CMakeFiles/List.dir/Iterator.cpp.o.provides: CMakeFiles/List.dir/Iterator.cpp.o.requires
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Iterator.cpp.o.provides.build
-.PHONY : CMakeFiles/List.dir/Iterator.cpp.o.provides
+CMakeFiles/List.dir/Person.cpp.o.provides: CMakeFiles/List.dir/Person.cpp.o.requires
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Person.cpp.o.provides.build
+.PHONY : CMakeFiles/List.dir/Person.cpp.o.provides
 
-CMakeFiles/List.dir/Iterator.cpp.o.provides.build: CMakeFiles/List.dir/Iterator.cpp.o
-
-
-CMakeFiles/List.dir/ConstIterator.cpp.o: CMakeFiles/List.dir/flags.make
-CMakeFiles/List.dir/ConstIterator.cpp.o: ../ConstIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/List.dir/ConstIterator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/ConstIterator.cpp.o -c /home/samuel/CLionProjects/List/ConstIterator.cpp
-
-CMakeFiles/List.dir/ConstIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/ConstIterator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/CLionProjects/List/ConstIterator.cpp > CMakeFiles/List.dir/ConstIterator.cpp.i
-
-CMakeFiles/List.dir/ConstIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/ConstIterator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/CLionProjects/List/ConstIterator.cpp -o CMakeFiles/List.dir/ConstIterator.cpp.s
-
-CMakeFiles/List.dir/ConstIterator.cpp.o.requires:
-
-.PHONY : CMakeFiles/List.dir/ConstIterator.cpp.o.requires
-
-CMakeFiles/List.dir/ConstIterator.cpp.o.provides: CMakeFiles/List.dir/ConstIterator.cpp.o.requires
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/ConstIterator.cpp.o.provides.build
-.PHONY : CMakeFiles/List.dir/ConstIterator.cpp.o.provides
-
-CMakeFiles/List.dir/ConstIterator.cpp.o.provides.build: CMakeFiles/List.dir/ConstIterator.cpp.o
+CMakeFiles/List.dir/Person.cpp.o.provides.build: CMakeFiles/List.dir/Person.cpp.o
 
 
-CMakeFiles/List.dir/Node.cpp.o: CMakeFiles/List.dir/flags.make
-CMakeFiles/List.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/List.dir/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/Node.cpp.o -c /home/samuel/CLionProjects/List/Node.cpp
+CMakeFiles/List.dir/Hero.cpp.o: CMakeFiles/List.dir/flags.make
+CMakeFiles/List.dir/Hero.cpp.o: ../Hero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/List.dir/Hero.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/List.dir/Hero.cpp.o -c /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Hero.cpp
 
-CMakeFiles/List.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/CLionProjects/List/Node.cpp > CMakeFiles/List.dir/Node.cpp.i
+CMakeFiles/List.dir/Hero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List.dir/Hero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Hero.cpp > CMakeFiles/List.dir/Hero.cpp.i
 
-CMakeFiles/List.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/CLionProjects/List/Node.cpp -o CMakeFiles/List.dir/Node.cpp.s
+CMakeFiles/List.dir/Hero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List.dir/Hero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Hero.cpp -o CMakeFiles/List.dir/Hero.cpp.s
 
-CMakeFiles/List.dir/Node.cpp.o.requires:
+CMakeFiles/List.dir/Hero.cpp.o.requires:
 
-.PHONY : CMakeFiles/List.dir/Node.cpp.o.requires
+.PHONY : CMakeFiles/List.dir/Hero.cpp.o.requires
 
-CMakeFiles/List.dir/Node.cpp.o.provides: CMakeFiles/List.dir/Node.cpp.o.requires
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Node.cpp.o.provides.build
-.PHONY : CMakeFiles/List.dir/Node.cpp.o.provides
+CMakeFiles/List.dir/Hero.cpp.o.provides: CMakeFiles/List.dir/Hero.cpp.o.requires
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Hero.cpp.o.provides.build
+.PHONY : CMakeFiles/List.dir/Hero.cpp.o.provides
 
-CMakeFiles/List.dir/Node.cpp.o.provides.build: CMakeFiles/List.dir/Node.cpp.o
+CMakeFiles/List.dir/Hero.cpp.o.provides.build: CMakeFiles/List.dir/Hero.cpp.o
 
 
 # Object files for target List
 List_OBJECTS = \
 "CMakeFiles/List.dir/main.cpp.o" \
 "CMakeFiles/List.dir/List.cpp.o" \
-"CMakeFiles/List.dir/Iterator.cpp.o" \
-"CMakeFiles/List.dir/ConstIterator.cpp.o" \
-"CMakeFiles/List.dir/Node.cpp.o"
+"CMakeFiles/List.dir/Person.cpp.o" \
+"CMakeFiles/List.dir/Hero.cpp.o"
 
 # External object files for target List
 List_EXTERNAL_OBJECTS =
 
 List: CMakeFiles/List.dir/main.cpp.o
 List: CMakeFiles/List.dir/List.cpp.o
-List: CMakeFiles/List.dir/Iterator.cpp.o
-List: CMakeFiles/List.dir/ConstIterator.cpp.o
-List: CMakeFiles/List.dir/Node.cpp.o
+List: CMakeFiles/List.dir/Person.cpp.o
+List: CMakeFiles/List.dir/Hero.cpp.o
 List: CMakeFiles/List.dir/build.make
 List: CMakeFiles/List.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable List"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/List.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -205,9 +179,8 @@ CMakeFiles/List.dir/build: List
 
 CMakeFiles/List.dir/requires: CMakeFiles/List.dir/main.cpp.o.requires
 CMakeFiles/List.dir/requires: CMakeFiles/List.dir/List.cpp.o.requires
-CMakeFiles/List.dir/requires: CMakeFiles/List.dir/Iterator.cpp.o.requires
-CMakeFiles/List.dir/requires: CMakeFiles/List.dir/ConstIterator.cpp.o.requires
-CMakeFiles/List.dir/requires: CMakeFiles/List.dir/Node.cpp.o.requires
+CMakeFiles/List.dir/requires: CMakeFiles/List.dir/Person.cpp.o.requires
+CMakeFiles/List.dir/requires: CMakeFiles/List.dir/Hero.cpp.o.requires
 
 .PHONY : CMakeFiles/List.dir/requires
 
@@ -216,6 +189,6 @@ CMakeFiles/List.dir/clean:
 .PHONY : CMakeFiles/List.dir/clean
 
 CMakeFiles/List.dir/depend:
-	cd /home/samuel/CLionProjects/List/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/CLionProjects/List /home/samuel/CLionProjects/List /home/samuel/CLionProjects/List/cmake-build-debug /home/samuel/CLionProjects/List/cmake-build-debug /home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles/List.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/List.dir/depend
 

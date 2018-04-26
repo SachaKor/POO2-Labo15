@@ -48,10 +48,10 @@ RM = /opt/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samuel/CLionProjects/List
+CMAKE_SOURCE_DIR = /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samuel/CLionProjects/List/cmake-build-debug
+CMAKE_BINARY_DIR = /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles /home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samuel/CLionProjects/List/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,32 @@ List/fast:
 	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
 .PHONY : List/fast
 
-ConstIterator.o: ConstIterator.cpp.o
+Hero.o: Hero.cpp.o
 
-.PHONY : ConstIterator.o
-
-# target to build an object file
-ConstIterator.cpp.o:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/ConstIterator.cpp.o
-.PHONY : ConstIterator.cpp.o
-
-ConstIterator.i: ConstIterator.cpp.i
-
-.PHONY : ConstIterator.i
-
-# target to preprocess a source file
-ConstIterator.cpp.i:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/ConstIterator.cpp.i
-.PHONY : ConstIterator.cpp.i
-
-ConstIterator.s: ConstIterator.cpp.s
-
-.PHONY : ConstIterator.s
-
-# target to generate assembly for a file
-ConstIterator.cpp.s:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/ConstIterator.cpp.s
-.PHONY : ConstIterator.cpp.s
-
-Iterator.o: Iterator.cpp.o
-
-.PHONY : Iterator.o
+.PHONY : Hero.o
 
 # target to build an object file
-Iterator.cpp.o:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Iterator.cpp.o
-.PHONY : Iterator.cpp.o
+Hero.cpp.o:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Hero.cpp.o
+.PHONY : Hero.cpp.o
 
-Iterator.i: Iterator.cpp.i
+Hero.i: Hero.cpp.i
 
-.PHONY : Iterator.i
+.PHONY : Hero.i
 
 # target to preprocess a source file
-Iterator.cpp.i:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Iterator.cpp.i
-.PHONY : Iterator.cpp.i
+Hero.cpp.i:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Hero.cpp.i
+.PHONY : Hero.cpp.i
 
-Iterator.s: Iterator.cpp.s
+Hero.s: Hero.cpp.s
 
-.PHONY : Iterator.s
+.PHONY : Hero.s
 
 # target to generate assembly for a file
-Iterator.cpp.s:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Iterator.cpp.s
-.PHONY : Iterator.cpp.s
+Hero.cpp.s:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Hero.cpp.s
+.PHONY : Hero.cpp.s
 
 List.o: List.cpp.o
 
@@ -204,32 +177,32 @@ List.cpp.s:
 	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/List.cpp.s
 .PHONY : List.cpp.s
 
-Node.o: Node.cpp.o
+Person.o: Person.cpp.o
 
-.PHONY : Node.o
+.PHONY : Person.o
 
 # target to build an object file
-Node.cpp.o:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Node.cpp.o
-.PHONY : Node.cpp.o
+Person.cpp.o:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Person.cpp.o
+.PHONY : Person.cpp.o
 
-Node.i: Node.cpp.i
+Person.i: Person.cpp.i
 
-.PHONY : Node.i
+.PHONY : Person.i
 
 # target to preprocess a source file
-Node.cpp.i:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Node.cpp.i
-.PHONY : Node.cpp.i
+Person.cpp.i:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Person.cpp.i
+.PHONY : Person.cpp.i
 
-Node.s: Node.cpp.s
+Person.s: Person.cpp.s
 
-.PHONY : Node.s
+.PHONY : Person.s
 
 # target to generate assembly for a file
-Node.cpp.s:
-	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Node.cpp.s
-.PHONY : Node.cpp.s
+Person.cpp.s:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Person.cpp.s
+.PHONY : Person.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,18 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... List"
-	@echo "... ConstIterator.o"
-	@echo "... ConstIterator.i"
-	@echo "... ConstIterator.s"
-	@echo "... Iterator.o"
-	@echo "... Iterator.i"
-	@echo "... Iterator.s"
+	@echo "... Hero.o"
+	@echo "... Hero.i"
+	@echo "... Hero.s"
 	@echo "... List.o"
 	@echo "... List.i"
 	@echo "... List.s"
-	@echo "... Node.o"
-	@echo "... Node.i"
-	@echo "... Node.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
