@@ -1,6 +1,14 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.8)
 project(List)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(List main.cpp List.cpp List.h Person.cpp Person.h Hero.cpp Hero.h)
+set(SOURCE_FILES
+        Hero.cpp
+        Hero.h
+        List.h
+        main.cpp
+        Person.cpp
+        Person.h)
+
+add_executable(List ${SOURCE_FILES})

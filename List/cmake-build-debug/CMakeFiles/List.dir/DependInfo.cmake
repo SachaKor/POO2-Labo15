@@ -4,12 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Hero.cpp" "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/Hero.cpp.o"
-  "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/List.cpp" "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/List.cpp.o"
-  "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/Person.cpp" "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/Person.cpp.o"
-  "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/main.cpp" "/home/samuel/Documents/Semestre4/POO2/15Listes/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/main.cpp.o"
+  "/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo15/List/Hero.cpp" "/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/Hero.cpp.o"
+  "/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo15/List/Person.cpp" "/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/Person.cpp.o"
+  "/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo15/List/main.cpp" "/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo15/List/cmake-build-debug/CMakeFiles/List.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
