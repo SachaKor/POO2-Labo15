@@ -9,7 +9,8 @@
 
 #include "Hero.h"
 
-Hero::Hero(string name, int age, string destiny) : Person(name, age), destiny(destiny) {}
+Hero::Hero(string name, int age, string destiny) :
+        Person(name, age), destiny(destiny) {}
 
 /**
  * Returns destiny

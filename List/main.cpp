@@ -42,9 +42,11 @@ int main() {
     cout << "Testing [] operator..." << endl;
     cout << "test[2]: " << test[2] << endl; // 10
 
-    cout << "Testing the copy constructor and the assignment operator..." << endl;
+    cout << "Testing the copy constructor and the assignment operator..."
+         << endl;
     List<int> listCopy = List<int>(test);
-    cout << "After assigning to the listCopy the List that was created with the copy constructor with test list as a "
+    cout << "After assigning to the listCopy the List that "
+            "was created with the copy constructor with test list as a "
             "parameter: " << endl;
     cout << "listCopy: " << listCopy << endl;
     listCopy[0] = 11;
@@ -74,8 +76,10 @@ int main() {
 
     cout << endl;
 
-    cout << "Running the persons list of a custom type Person with the iterator and displaying every person:" << endl;
-    for (List<Person*>::Iterator it = personsCopy.begin(); it != personsCopy.end(); ++it) {
+    cout << "Running the persons list of a custom type Person with "
+            "the iterator and displaying every person:" << endl;
+    for (List<Person*>::Iterator it = personsCopy.begin();
+         it != personsCopy.end(); ++it) {
         (*it)->print();
         cout << endl;
     }
@@ -103,4 +107,5 @@ int main() {
     delete(rene);
     delete(louis);
 
+    return EXIT_SUCCESS;
 }

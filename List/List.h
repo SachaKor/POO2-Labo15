@@ -9,6 +9,9 @@
  *  list won't allow any change on the list.
  *  Iterator constant and not constant can be instanciated
  *  with begin() and end() methods to iterate threw the list
+ *
+ *  @note We know ConstIterator class shouldn't extend Iterator class.
+ *  Times are hard and we weren't able to make it work in time.
  */
 
 #ifndef LIST_LIST_H
